@@ -1,6 +1,6 @@
 package src.fathi;
 
-public class FENRA_Task_team {
+public class FINRA_Task_team {
 
     public static void main(String[] args) {
         int number = 3;
@@ -10,12 +10,12 @@ public class FENRA_Task_team {
             String result;
 
             if (number % 3 == 0) {
-                result = "FEN";
+                result = "FIN";
             } else if (number % 5 == 0) {
                 result = "RA";
 
             } else if (number % 5 == 0 && number % 3 ==0) {
-                result = "FENRA";
+                result = "FINRA";
 
             }else{
                 result = " " + number;
