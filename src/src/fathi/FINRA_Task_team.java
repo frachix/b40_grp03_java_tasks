@@ -6,8 +6,9 @@ public class FINRA_Task_team {
         int number = 3;
         int num = 5;
 
+        String result;
+
         for (number = 1; number <=30 ;number++) {
-            String result;
 
             if (number % 3 == 0) {
                 result = "FIN";
